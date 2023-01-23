@@ -1,7 +1,8 @@
 class Api::V1::ItunesController < ApplicationController
   def index
+    artist = params[:artist] ? params[:artist] : "DECO27"
     musics = ITunesSearchAPI.search(
-      term: "DECO27",
+      term: artist,
       country: 'jp',
       media: 'music',
       lang: 'ja_jp',
