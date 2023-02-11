@@ -19,6 +19,8 @@ gem 'puma', '~> 4.1'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'minitest', '5.17.0'
 
+gem 'pry-rails'
+
 gem 'rack-cors'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
