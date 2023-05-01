@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.6'
 
+gem 'itunes-search-api'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.0.6'
 # Use mysql as the database for Active Record
@@ -15,6 +17,9 @@ gem 'puma', '~> 4.1'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'minitest', '5.17.0'
+
+gem 'pry-rails'
 
 gem 'rack-cors'
 # Use Active Storage variant
